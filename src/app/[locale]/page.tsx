@@ -55,6 +55,7 @@ const skills = [
    },
 ]
 
+
 export default function Home() {
 
    return (

@@ -35,9 +35,10 @@ export default function LocaleLayout({
    const messages = useMessages();
 
    return (
-      <NextIntlClientProvider locale={locale} messages={messages}>
-         <html lang={locale} className="scroll-smooth antialiased" suppressHydrationWarning>
-            <body className={cn("bg-gray-50 dark:bg-slate-900", inter.className, montserat.variable, koho.variable)}>
+
+      <html lang={locale} className="scroll-smooth antialiased" suppressHydrationWarning>
+         <body className={cn("bg-gray-50 dark:bg-slate-900", inter.className, montserat.variable, koho.variable)}>
+            <NextIntlClientProvider locale={locale} messages={messages}>
                <CookiesProvider>
                   <ThemeProvider
                      attribute="class"
@@ -50,9 +51,10 @@ export default function LocaleLayout({
                      </Layout>
                   </ThemeProvider>
                </CookiesProvider>
-            </body>
-         </html>
-      </NextIntlClientProvider>
+            </NextIntlClientProvider>
+         </body>
+      </html>
+
    );
 }
 

@@ -1,16 +1,16 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Chetra",
-  description: "Everything about Chetra",
+   title: "About Chetra",
+   description: "Everything about Chetra",
 };
 
-export default function LocaleLayout({
-  children,
+export default function AboutMeLayout({
+   children,
 }: {
-  children: React.ReactNode;
+   children: React.ReactNode;
 }) {
-  return (
-    <>{children}</>
-  );
+   return (
+      <>{children}</>
+   );
 }
