@@ -25,14 +25,14 @@ export const metadata: Metadata = {
 };
 
 
-export default async function LocaleLayout({
+export default function LocaleLayout({
    children,
    params: { locale }
 }: {
    children: React.ReactNode;
    params: { locale: string };
 }) {
-   const messages = await useMessages();
+   const messages = useMessages();
 
    return (
 
