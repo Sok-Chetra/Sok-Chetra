@@ -29,7 +29,7 @@ export async function generateStaticParams() {
    return ['en', 'kh'].map((locale) => ({ locale }))
  }
 
- export const static = 'force-static';
+ export const dynamic = 'force-static';
 
 export default async function LocaleLayout({
    children,
