@@ -1,0 +1,1 @@
+"use strict";exports.id=316,exports.ids=[316],exports.modules={9316:e=>{e.exports=JSON.parse('{"Nav-Button":{"sok-chetra":"Sok Chetra","about-me":"About Me","experience":"Experience","skills":"Skills","contact-me":"Contact Me"},"Homepage":{"title":"Hello world!"}}')}};

@@ -1,0 +1,12 @@
+{
+  "Nav-Button": {
+    "sok-chetra": "Sok Chetra",
+    "about-me": "About Me",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact-me": "Contact Me"
+  },
+  "Homepage": {
+    "title": "Hello world!"
+  }
+}

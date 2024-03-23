@@ -1,0 +1,1 @@
+"use strict";exports.id=770,exports.ids=[770],exports.modules={3770:e=>{e.exports=JSON.parse('{"Nav-Button":{"sok-chetra":"សុខ​ ចិត្រ្តា","about-me":"អំពីខ្ញុំ","experience":"បទពិសោធ","skills":"ជំនាញ","contact-me":"ទំនាក់ទំនង"},"Homepage":{"title":"Hello world!"}}')}};
