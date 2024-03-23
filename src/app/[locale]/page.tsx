@@ -62,7 +62,7 @@ export default function Home() {
       <div className='container mx-auto pb-10 overflow-x-hidden'>
          <div className='flex flex-col md:flex-row justify-center md:justify-start items-center space-y-5 h-screen'>
             <Image
-               src={"./img/placeholder-profile.png"}
+               src={"/img/placeholder-profile.png"}
                alt='image'
                width={500}
                height={500}
@@ -106,7 +106,7 @@ export default function Home() {
                </p>
             </div>
             <Image
-               src={"./img/placeholder-profile.png"}
+               src={"/img/placeholder-profile.png"}
                alt='image'
                width={500}
                height={500}
