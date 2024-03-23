@@ -30,14 +30,14 @@ export async function generateStaticParams() {
  }
 
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
    children,
    params: { locale }
 }: {
    children: React.ReactNode;
    params: { locale: string };
 }) {
-   const messages = useMessages();
+   const messages = await useMessages();
 
    return (
 
