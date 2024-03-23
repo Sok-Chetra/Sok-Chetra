@@ -4,21 +4,15 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   output: "export",
-   images: {
-      remotePatterns: [
-         {
-            protocol: 'https',
-            hostname: 'i.pinimg.com',
-            port: '',
-         },
-         {
-            protocol: 'https',
-            hostname: 'c4.wallpaperflare.com',
-            port: '',
-         },
-      ],
+   output: "standalone",
+   basePath: process.env.NODE_ENV === "production" ? "" : undefined,
+   experimental: {
+      appDir: true,
    },
+   images: {
+      unoptimized: true,
+   },
+   reactStrictMode: true,
 };
 
 export default withNextIntl(nextConfig);
