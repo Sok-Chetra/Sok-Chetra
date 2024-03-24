@@ -3,14 +3,14 @@ import React from 'react'
 import { Navbar } from './ui/navbar'
 
 export const Layout = ({
-  children
+   children
 }: {
-  children: React.ReactNode
+   children: React.ReactNode
 }) => {
-  return (
-    <div>
-      <Navbar />
-      {children}
-    </div>
-  )
+   return (
+      <div className='overflow-x-hidden min-w-[280px] min-h-[950px]'>
+         <Navbar />
+         {children}
+      </div>
+   )
 }
